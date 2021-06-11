@@ -20,6 +20,10 @@
       "CLOUDINARY_SECRET": {
         "description": "The 'API Secret' of your Cloudinary account",
         "required": true
+      },
+      "ADMIN_JWT_SECRET": {
+        "description":"Base64 Admin JWT token",
+        "required": true
       }
     }
     
