@@ -8,7 +8,7 @@ To deploy this Strapi instance you'll need:
 
 Once you have created these accounts you can deploy your instance by clicking on this button
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/devdizer/Strapi-mongodb-cloudinary)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/aakashpandey/Strapi-mongodb-cloudinary)
 
 # Usage:
 
