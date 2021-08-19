@@ -1,19 +1,18 @@
 {
   "kind": "collectionType",
-  "collectionName": "categories",
+  "collectionName": "hero_banners",
   "info": {
-    "name": "category",
-    "description": ""
+    "name": "HeroBanner"
   },
   "options": {
     "increments": true,
     "timestamps": true,
-    "draftAndPublish": false
+    "draftAndPublish": true
   },
+  "pluginOptions": {},
   "attributes": {
-    "name": {
-      "type": "string",
-      "unique": true
+    "cta_url": {
+      "type": "string"
     },
     "image": {
       "model": "file",
@@ -26,9 +25,6 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
-    },
-    "image_url": {
-      "type": "string"
     }
   }
 }

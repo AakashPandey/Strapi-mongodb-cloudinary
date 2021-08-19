@@ -6,7 +6,8 @@
     "description": ""
   },
   "options": {
-    "timestamps": true
+    "timestamps": true,
+    "draftAndPublish": false
   },
   "attributes": {
     "username": {
@@ -60,12 +61,36 @@
         "images"
       ],
       "plugin": "upload",
-      "required": false
+      "required": false,
+      "pluginOptions": {}
     },
-    "articles": {
-      "collection": "article",
-      "via": "users",
-      "dominant": true
+    "bio": {
+      "type": "string"
+    },
+    "twitter_url": {
+      "type": "string"
+    },
+    "instagram_url": {
+      "type": "string"
+    },
+    "fullname": {
+      "type": "string"
+    },
+    "comments": {
+      "via": "user",
+      "collection": "comment"
+    },
+    "posts": {
+      "via": "posted_by",
+      "collection": "post"
+    },
+    "likes": {
+      "via": "liked_by",
+      "collection": "post"
+    },
+    "liked_comments": {
+      "via": "likes",
+      "collection": "comment"
     }
   }
 }
